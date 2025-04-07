@@ -23,4 +23,13 @@ public class HomeController {
     public String projects() {
         return "projects";
     }
+    @GetMapping({"/", "/contact"})
+    public String contact() {
+        return "contact";
+    }
+    
+    @GetMapping({"/", "/resume"})
+    public String resume() {
+        return "resume";
+    }
 }
