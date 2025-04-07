@@ -19,16 +19,16 @@ public class HomeController {
     public String index() {
         return "index";
     }
-    @GetMapping({"/", "/projects"})
+    @GetMapping({"/projects"})
     public String projects() {
         return "projects";
     }
-    @GetMapping({"/", "/contact"})
+    @GetMapping({"/contact"})
     public String contact() {
         return "contact";
     }
     
-    @GetMapping({"/", "/resume"})
+    @GetMapping({"/resume"})
     public String resume() {
         return "resume";
     }
